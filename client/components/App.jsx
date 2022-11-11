@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import Header from './Header'
-import { getFruits } from '../apis/fruits'
+import Nav from './Nav'
+import Body from './Body'
+// import { getFruits } from '../apis/fruits'
 
 function App () {
   // const [fruits, setFruits] = useState([])
@@ -15,6 +17,8 @@ function App () {
     <>
       <div className='app'>
         <Header />
+        <Nav />
+        <Body />
         <ul>
           {/* {fruits.map(fruit => (
             <li key={fruit}>{fruit}</li>
